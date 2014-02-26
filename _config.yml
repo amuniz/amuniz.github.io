@@ -5,9 +5,9 @@
 url: http://amuniz.github.io
 title: "Antonio's blog"
 subtitle: "Talking about..."
-author: Antonio Muñiz
+author: "Antonio Muñiz"
 simple_search: http://google.com/search
-description:
+description: "Human, Engineer, and  Software Developer. Working on @clinkerhq, @mivecindad and @opinahq"
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: amunizmartin@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
