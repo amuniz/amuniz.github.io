@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://amuniz.github.io/about/</loc>
+        <lastmod>2014-02-27T00:47:15+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://amuniz.github.io/blog/archives/</loc>
         <lastmod>2014-02-27T00:01:15+01:00</lastmod>
     </url>
