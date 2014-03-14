@@ -8,11 +8,11 @@ categories: development
 
 I was talking about ExtJS in the [SevillaJS meetup](http://www.meetup.com/SevillaJS/events/169441972/) yesterday.
 
-The talk was not really a talk but a 2 hours live coding session. I used this slides as an introduction to the coding. They are not self-contained, but I put them here only fot the last slide... I love it :-)
+The talk was not really a talk but a 2 hours live coding session. I used this slides as an introduction to the coding. They are not self-contained, but I put them here only for the last slide... I love it :-)
 
 After 15 minutes with the slides I started to code an ExtJS app from scratch:
 
- * Create the basic proyect layout using Sencha CMD.
+ * Create the basic project layout using Sencha CMD.
  * Add a view component with two buttons.
  * Apply hbox layout.
  * Add a controller to manage the click event in one of the buttons.
