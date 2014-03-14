@@ -21,8 +21,8 @@ After 15 minutes with the slides I started to code an ExtJS app from scratch:
  * Add a People store.
  * And finally add a more complex action to reload the grid on click the sencond button.
 
-In the last 20 minutes I showed how we are using ExtJS at [ClinkerHQ](http://clinkerhq.com), in Clinker Desktop exactly.
+In the last 20 minutes I showed how we are using ExtJS at [ClinkerHQ](http://clinkerhq.com), on Clinker Desktop to be precise.
 
-The code I wrote during the session is in [GitHub](https://github.com/amuniz/sevillajs-extjs), if you want to take a look. It's not runnable as is, you'll have to copy the ExtJS distribution to a directory named "ext" in order to get it running. It's a very simple example, but it could useful for someone who is starting with ExtJS.
+The code I wrote during the session is in [GitHub](https://github.com/amuniz/sevillajs-extjs), if you want to take a look. It's not runnable as is, you'll have to copy the ExtJS distribution to a directory named "ext" in order to get it running. It's a very simple example, but it could be useful for someone who is starting with ExtJS.
 
 <iframe src="http://www.slideshare.net/slideshow/embed_code/32324390" width="750" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
