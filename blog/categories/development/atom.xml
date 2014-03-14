@@ -4,7 +4,7 @@
   <title><![CDATA[Category: development | Antonio's blog]]></title>
   <link href="http://amuniz.github.io/blog/categories/development/atom.xml" rel="self"/>
   <link href="http://amuniz.github.io/"/>
-  <updated>2014-03-14T19:51:26+01:00</updated>
+  <updated>2014-03-14T20:11:32+01:00</updated>
   <id>http://amuniz.github.io/</id>
   <author>
     <name><![CDATA[Antonio Muñiz]]></name>
@@ -36,9 +36,9 @@
 </ul>
 
 
-<p>In the last 20 minutes I showed how we are using ExtJS at <a href="http://clinkerhq.com">ClinkerHQ</a>, in Clinker Desktop exactly.</p>
+<p>In the last 20 minutes I showed how we are using ExtJS at <a href="http://clinkerhq.com">ClinkerHQ</a>, on Clinker Desktop to be precise.</p>
 
-<p>The code I wrote during the session is in <a href="https://github.com/amuniz/sevillajs-extjs">GitHub</a>, if you want to take a look. It&rsquo;s not runnable as is, you&rsquo;ll have to copy the ExtJS distribution to a directory named &ldquo;ext&rdquo; in order to get it running. It&rsquo;s a very simple example, but it could useful for someone who is starting with ExtJS.</p>
+<p>The code I wrote during the session is in <a href="https://github.com/amuniz/sevillajs-extjs">GitHub</a>, if you want to take a look. It&rsquo;s not runnable as is, you&rsquo;ll have to copy the ExtJS distribution to a directory named &ldquo;ext&rdquo; in order to get it running. It&rsquo;s a very simple example, but it could be useful for someone who is starting with ExtJS.</p>
 
 <iframe src="http://www.slideshare.net/slideshow/embed_code/32324390" width="750" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
