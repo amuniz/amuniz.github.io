@@ -4,7 +4,7 @@
   <title><![CDATA[Category: development | Antonio's blog]]></title>
   <link href="http://amuniz.github.io/blog/categories/development/atom.xml" rel="self"/>
   <link href="http://amuniz.github.io/"/>
-  <updated>2014-03-14T20:11:32+01:00</updated>
+  <updated>2014-03-14T20:26:02+01:00</updated>
   <id>http://amuniz.github.io/</id>
   <author>
     <name><![CDATA[Antonio Muñiz]]></name>
@@ -20,12 +20,12 @@
     <id>http://amuniz.github.io/blog/2014/03/14/talking-about-extjs-in-sevillajs-meetup</id>
     <content type="html"><![CDATA[<p>I was talking about ExtJS in the <a href="http://www.meetup.com/SevillaJS/events/169441972/">SevillaJS meetup</a> yesterday.</p>
 
-<p>The talk was not really a talk but a 2 hours live coding session. I used this slides as an introduction to the coding. They are not self-contained, but I put them here only fot the last slide&hellip; I love it :&ndash;)</p>
+<p>The talk was not really a talk but a 2 hours live coding session. I used this slides as an introduction to the coding. They are not self-contained, but I put them here only for the last slide&hellip; I love it :&ndash;)</p>
 
 <p>After 15 minutes with the slides I started to code an ExtJS app from scratch:</p>
 
 <ul>
-<li>Create the basic proyect layout using Sencha CMD.</li>
+<li>Create the basic project layout using Sencha CMD.</li>
 <li>Add a view component with two buttons.</li>
 <li>Apply hbox layout.</li>
 <li>Add a controller to manage the click event in one of the buttons.</li>
