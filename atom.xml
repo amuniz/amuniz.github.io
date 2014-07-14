@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Antonio's blog]]></title>
-  <link href="http://amuniz.github.io/atom.xml" rel="self"/>
-  <link href="http://amuniz.github.io/"/>
-  <updated>2014-03-14T20:26:02+01:00</updated>
-  <id>http://amuniz.github.io/</id>
+  <link href="http://amunizmartin.com/atom.xml" rel="self"/>
+  <link href="http://amunizmartin.com/"/>
+  <updated>2014-07-14T14:37:25+02:00</updated>
+  <id>http://amunizmartin.com/</id>
   <author>
     <name><![CDATA[Antonio Muñiz]]></name>
     <email><![CDATA[amunizmartin@gmail.com]]></email>
@@ -14,10 +14,62 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Unix processes memory usage]]></title>
+    <link href="http://amunizmartin.com/blog/2014/07/14/unix-processes-memory-usage/"/>
+    <updated>2014-07-14T13:36:58+02:00</updated>
+    <id>http://amunizmartin.com/blog/2014/07/14/unix-processes-memory-usage</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m not a sys admin, but sometimes I need to profile applications in development or production environments. When
+this happens I realize that I don&rsquo;t remember those large -very large- commands using awk and prints everywhere.</p>
+
+<p>Today was one of that days, so I decided to write this post as a reference for myself.</p>
+
+<br />
+
+
+<p><strong>Total memory usage</strong>:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$> ps aux |  awk '{print $6/1024}' | awk '{sum += $1}; END {print sum " MB"}'</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<br />
+
+
+<p><strong>Total memory usage by process, for example Apache</strong>:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$> ps aux | grep apache2 | awk '{print $6/1024}' | awk '{sum += $1}; END {print sum " MB"}'</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<br />
+
+
+<p><strong>Average memory used by a process (if it uses childs)</strong>:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$> ps aux | grep apache2 | awk '{print $6/1024;}' | awk '{avg += ($1 - avg) / NR;} END {print avg " MB";}'</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<br />
+
+
+<p>All of them use process&rsquo;s resident memory (not virtual memory).</p>
+
+<p>That&rsquo;s all.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Talking about ExtJS in SevillaJS meetup]]></title>
-    <link href="http://amuniz.github.io/blog/2014/03/14/talking-about-extjs-in-sevillajs-meetup/"/>
+    <link href="http://amunizmartin.com/blog/2014/03/14/talking-about-extjs-in-sevillajs-meetup/"/>
     <updated>2014-03-14T19:19:17+01:00</updated>
-    <id>http://amuniz.github.io/blog/2014/03/14/talking-about-extjs-in-sevillajs-meetup</id>
+    <id>http://amunizmartin.com/blog/2014/03/14/talking-about-extjs-in-sevillajs-meetup</id>
     <content type="html"><![CDATA[<p>I was talking about ExtJS in the <a href="http://www.meetup.com/SevillaJS/events/169441972/">SevillaJS meetup</a> yesterday.</p>
 
 <p>The talk was not really a talk but a 2 hours live coding session. I used this slides as an introduction to the coding. They are not self-contained, but I put them here only for the last slide&hellip; I love it :&ndash;)</p>

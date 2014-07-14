@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: memory | Antonio's blog]]></title>
+  <link href="http://amunizmartin.com/blog/categories/memory/atom.xml" rel="self"/>
+  <link href="http://amunizmartin.com/"/>
+  <updated>2014-07-14T14:37:25+02:00</updated>
+  <id>http://amunizmartin.com/</id>
+  <author>
+    <name><![CDATA[Antonio Muñiz]]></name>
+    <email><![CDATA[amunizmartin@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Unix processes memory usage]]></title>
+    <link href="http://amunizmartin.com/blog/2014/07/14/unix-processes-memory-usage/"/>
+    <updated>2014-07-14T13:36:58+02:00</updated>
+    <id>http://amunizmartin.com/blog/2014/07/14/unix-processes-memory-usage</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m not a sys admin, but sometimes I need to profile applications in development or production environments. When
+this happens I realize that I don&rsquo;t remember those large -very large- commands using awk and prints everywhere.</p>
+
+<p>Today was one of that days, so I decided to write this post as a reference for myself.</p>
+
+<br />
+
+
+<p><strong>Total memory usage</strong>:</p>
+
+<pre><code><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; ps aux |  awk '{print $6/1024}' | awk '{sum += $1}; END {print sum " MB"}'</span></code></pre></td></tr></table></div></figure></notextile></div>
+</code></pre>
+
+<br />
+
+
+<p><strong>Total memory usage by process, for example Apache</strong>:</p>
+
+<pre><code><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; ps aux | grep apache2 | awk '{print $6/1024}' | awk '{sum += $1}; END {print sum " MB"}'</span></code></pre></td></tr></table></div></figure></notextile></div>  
+</code></pre>
+
+<br />
+
+
+<p><strong>Average memory used by a process (if it uses childs)</strong>:</p>
+
+<pre><code><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; ps aux | grep apache2 | awk '{print $6/1024;}' | awk '{avg += ($1 - avg) / NR;} END {print avg " MB";}'</span></code></pre></td></tr></table></div></figure></notextile></div>  
+</code></pre>
+
+<br />
+
+
+<p>All of them use process&rsquo;s resident memory (not virtual memory).</p>
+
+<p>That&rsquo;s all.</p>
+]]></content>
+  </entry>
+  
+</feed>

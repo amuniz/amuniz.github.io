@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: development | Antonio's blog]]></title>
-  <link href="http://amuniz.github.io/blog/categories/development/atom.xml" rel="self"/>
-  <link href="http://amuniz.github.io/"/>
-  <updated>2014-03-14T20:26:02+01:00</updated>
-  <id>http://amuniz.github.io/</id>
+  <link href="http://amunizmartin.com/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://amunizmartin.com/"/>
+  <updated>2014-07-14T14:37:25+02:00</updated>
+  <id>http://amunizmartin.com/</id>
   <author>
     <name><![CDATA[Antonio Muñiz]]></name>
     <email><![CDATA[amunizmartin@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Talking about ExtJS in SevillaJS meetup]]></title>
-    <link href="http://amuniz.github.io/blog/2014/03/14/talking-about-extjs-in-sevillajs-meetup/"/>
+    <link href="http://amunizmartin.com/blog/2014/03/14/talking-about-extjs-in-sevillajs-meetup/"/>
     <updated>2014-03-14T19:19:17+01:00</updated>
-    <id>http://amuniz.github.io/blog/2014/03/14/talking-about-extjs-in-sevillajs-meetup</id>
+    <id>http://amunizmartin.com/blog/2014/03/14/talking-about-extjs-in-sevillajs-meetup</id>
     <content type="html"><![CDATA[<p>I was talking about ExtJS in the <a href="http://www.meetup.com/SevillaJS/events/169441972/">SevillaJS meetup</a> yesterday.</p>
 
 <p>The talk was not really a talk but a 2 hours live coding session. I used this slides as an introduction to the coding. They are not self-contained, but I put them here only for the last slide&hellip; I love it :&ndash;)</p>
