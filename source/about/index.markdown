@@ -9,7 +9,9 @@ footer: true
 
 Hi! My name is Antonio Muñiz. 
 
-I was born in Aroche in 1983, a little town in the south of Spain. After finishing high school I emigrated to Seville where I started my Computer Science engineering studies.
+I was born in Aroche in 1983, a little town in the south of Spain. After finishing high school I migrated to Seville where I started my Computer Science engineering studies.
 On 2007 I got my first job and started my professional career around software development and engineering.
 
-I'm currently working at klicap, where I enjoy every day doing what I love to do: software. In the last years I've been giving my best in http://clinkerhq.com, http://opinahq.com and http://mivecindad.com.
+I'm currently working at [CloudBees](https://www.cloudbees.com) as a proud Jenkins developer.
+
+In my earlier life I worked at klicap, where I enjoyed every day doing what I love to do: software. I gave my best in ClinkerHQ, OpinaHQ and mivecindad.
