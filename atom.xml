@@ -4,7 +4,7 @@
   <title><![CDATA[Antonio's blog]]></title>
   <link href="http://amunizmartin.com/atom.xml" rel="self"/>
   <link href="http://amunizmartin.com/"/>
-  <updated>2016-01-30T13:27:06+01:00</updated>
+  <updated>2016-01-30T14:09:27+01:00</updated>
   <id>http://amunizmartin.com/</id>
   <author>
     <name><![CDATA[Antonio Muñiz]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Talk about Jenkins Pipeline in Seville JAM]]></title>
+    <link href="http://amunizmartin.com/blog/2016/01/30/talk-about-jenkins-pipeline-in-seville-jam/"/>
+    <updated>2016-01-30T13:32:24+01:00</updated>
+    <id>http://amunizmartin.com/blog/2016/01/30/talk-about-jenkins-pipeline-in-seville-jam</id>
+    <content type="html"><![CDATA[<p>I was talking about <a href="https://github.com/jenkinsci/workflow-plugin#introduction">Jenkins Pipeline</a> in the Seville JAM (Jenkins Area Meetup).
+Thanks to everyone that attended the meeting and feel free to ping me in <a href="https://twitter.com/amunizmartin">twitter</a> if want to ask something!
+These are the slides.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/key/bb5GeqFHI9kkAW" width="750" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"</iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Unix processes memory usage]]></title>
